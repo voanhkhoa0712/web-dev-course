@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+aside {
+  flex-basis: 30%;
+}
+
+article {
+  flex-basis: 70%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  gap: 10px;
+}
+
+.image {
+  flex-basis: calc(100% / 3);
+}
